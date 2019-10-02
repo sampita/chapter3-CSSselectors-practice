@@ -1,0 +1,53 @@
+header {
+    border-style: solid;
+    border-width: 1px;
+    border-color: goldenrod;
+}
+
+header li {
+    display: inline;
+}
+
+.disabled {
+    color: grey;
+}
+
+li > a.disabled {
+    color: purple;
+}
+
+section .active {
+    color: yellow;
+}
+
+div.parent > div :first-child {
+    color: red;
+}
+
+div.parent > div :nth-last-child(2) {
+    color: blue;
+}
+
+div.parent > div :first-child + h4 {
+    color: red;
+}
+
+div.parent > div :nth-last-child(2) + h4 {
+    color: blue;
+}
+
+div.grandparent > h4 {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+span > input {
+    height: 25px;
+}
